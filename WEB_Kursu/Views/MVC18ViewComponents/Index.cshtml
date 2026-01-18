@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.title = "MVC 17 ViewComponents";
+}
+
+<p>MVC 17 ViewComponents</p>
+
+<p>.net.Core  MVC de herhangi bir  yapıaya bağlı olmadan kendi kendine çalışabilen modüler yapılardır</p>
+
+<h3>Kullanımı</h3>
+
+<p>proje viewComponent klasörü ekleyip içerisine 
+    classımızı ekleyip viewComponent sınıfından miras alınarak yapılır</p>
+
+
+<h3>Componenti çağırma</h3>
+@await Component.InvokeAsync("Uyeler");

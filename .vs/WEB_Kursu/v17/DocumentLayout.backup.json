@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\serha\\source\\repos\\WEB_Kursu\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{37786FEC-EF07-40FF-9B79-CA10EA58C3D2}|WEB_Kursu\\WEB_Kursu.csproj|c:\\users\\serha\\source\\repos\\web_kursu\\web_kursu\\viewcomponents\\uyeler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37786FEC-EF07-40FF-9B79-CA10EA58C3D2}|WEB_Kursu\\WEB_Kursu.csproj|solutionrelative:web_kursu\\viewcomponents\\uyeler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37786FEC-EF07-40FF-9B79-CA10EA58C3D2}|WEB_Kursu\\WEB_Kursu.csproj|c:\\users\\serha\\source\\repos\\web_kursu\\web_kursu\\views\\mvc18viewcomponents\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37786FEC-EF07-40FF-9B79-CA10EA58C3D2}|WEB_Kursu\\WEB_Kursu.csproj|solutionrelative:web_kursu\\views\\mvc18viewcomponents\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37786FEC-EF07-40FF-9B79-CA10EA58C3D2}|WEB_Kursu\\WEB_Kursu.csproj|c:\\users\\serha\\source\\repos\\web_kursu\\web_kursu\\views\\shared\\components\\uyeler\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37786FEC-EF07-40FF-9B79-CA10EA58C3D2}|WEB_Kursu\\WEB_Kursu.csproj|solutionrelative:web_kursu\\views\\shared\\components\\uyeler\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37786FEC-EF07-40FF-9B79-CA10EA58C3D2}|WEB_Kursu\\WEB_Kursu.csproj|c:\\users\\serha\\source\\repos\\web_kursu\\web_kursu\\controllers\\mvc18viewcomponentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37786FEC-EF07-40FF-9B79-CA10EA58C3D2}|WEB_Kursu\\WEB_Kursu.csproj|solutionrelative:web_kursu\\controllers\\mvc18viewcomponentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Uyeler.cs",
+              "DocumentMoniker": "C:\\Users\\serha\\source\\repos\\WEB_Kursu\\WEB_Kursu\\ViewComponents\\Uyeler.cs",
+              "RelativeDocumentMoniker": "WEB_Kursu\\ViewComponents\\Uyeler.cs",
+              "ToolTip": "C:\\Users\\serha\\source\\repos\\WEB_Kursu\\WEB_Kursu\\ViewComponents\\Uyeler.cs*",
+              "RelativeToolTip": "WEB_Kursu\\ViewComponents\\Uyeler.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T16:34:16.016Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\serha\\source\\repos\\WEB_Kursu\\WEB_Kursu\\Views\\Shared\\Components\\Uyeler\\Default.cshtml",
+              "RelativeDocumentMoniker": "WEB_Kursu\\Views\\Shared\\Components\\Uyeler\\Default.cshtml",
+              "ToolTip": "C:\\Users\\serha\\source\\repos\\WEB_Kursu\\WEB_Kursu\\Views\\Shared\\Components\\Uyeler\\Default.cshtml",
+              "RelativeToolTip": "WEB_Kursu\\Views\\Shared\\Components\\Uyeler\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-31T10:15:00.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\serha\\source\\repos\\WEB_Kursu\\WEB_Kursu\\Views\\MVC18ViewComponents\\Index.cshtml",
+              "RelativeDocumentMoniker": "WEB_Kursu\\Views\\MVC18ViewComponents\\Index.cshtml",
+              "ToolTip": "C:\\Users\\serha\\source\\repos\\WEB_Kursu\\WEB_Kursu\\Views\\MVC18ViewComponents\\Index.cshtml*",
+              "RelativeToolTip": "WEB_Kursu\\Views\\MVC18ViewComponents\\Index.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-22T16:24:22.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MVC18ViewComponentsController.cs",
+              "DocumentMoniker": "C:\\Users\\serha\\source\\repos\\WEB_Kursu\\WEB_Kursu\\Controllers\\MVC18ViewComponentsController.cs",
+              "RelativeDocumentMoniker": "WEB_Kursu\\Controllers\\MVC18ViewComponentsController.cs",
+              "ToolTip": "C:\\Users\\serha\\source\\repos\\WEB_Kursu\\WEB_Kursu\\Controllers\\MVC18ViewComponentsController.cs",
+              "RelativeToolTip": "WEB_Kursu\\Controllers\\MVC18ViewComponentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T16:24:18.13Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

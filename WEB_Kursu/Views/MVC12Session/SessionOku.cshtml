@@ -1,0 +1,62 @@
+﻿@using WEB_Kursu.Extensions;
+@{
+    ViewBag.title = "Seesion oku";
+}
+
+<p>Seesion oku</p>
+
+<h3>Session daki kullanıcı adı</h3>
+
+<h5>
+    backend: @TempData["kullaniciAdi"];
+</h5>
+<h5>
+    Frontend: @Context.Session.GetString("username")
+</h5>
+<h3>Session daki kullanıcı guid</h3>
+
+<h5>
+    backend: @TempData["kulaniciguid"];
+</h5>
+<h5>
+    Frontend: @Context.Session.GetString("userguid")
+</h5>
+
+<h5>
+    Giriş yapan kullanıcı numarası: @Context.Session.GetInt32("kullaniciNo")
+</h5>
+<a href="/MVC12Session/SessionSil">Session Sil</a>
+
+
+<hr />
+
+@{
+    var uye = Context.Session.GetJson<Uye>("kullanici");
+}
+@if (uye != null)
+{
+    <h3>Hoşgeldin: @uye.KullaniciAdi</h3>
+    <h3>kullanıcı bilgileriniz</h3>
+    <table class="table">
+        <tr>
+            <td>ad soyad</td>
+            <td>@uye.Ad  @uye.Soyad</td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>@uye.Email</td>
+        </tr>
+        <tr>
+            <td>Tc kimlik no</td>
+            <td>@uye.TcNo</td>
+        </tr>
+        <tr>
+            <td>Telefon</td>
+            <td>@uye.Telefon</td>
+        </tr>
+        <tr>
+            <td>Doğum tarihi</td>
+            <td>@uye.DogumTarihi.ToShortDateString()</td>
+        </tr>
+    </table>
+}

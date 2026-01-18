@@ -1,0 +1,56 @@
+﻿@model IEnumerable<WEB_Kursu.Models.Uye>
+@{
+    ViewBag.title = "MVC partial kulanımı";
+}
+
+<p>
+    parital parça anlamına gelilr kod miktarı 
+    arttıkça kodun yönetilebilirliği için sayfaların parçalara ayrıalrak kodlanmasıdır
+</p>
+
+<li>
+    @Html.Partial("_PartialMenu")
+</li>
+@Html.Partial("_PartialModelKullanimi",Model)
+
+
+<p>
+    Render partial
+</p>
+
+@{
+    Html.RenderPartial("_PartialModelKullanimi", Model);
+
+}
+<p>
+    Html.RenderPartial() HTML cıktısını doğrudan yanıt akışına yazar
+</p>
+
+<p> 
+    Html.Partial() HTML cıktısını bir dize olarak döndürür,
+
+    bu yöntem Döndürülen cıktının bir değişkene atnmasını veya manüpile edilmesini sağlar.
+</p>
+
+
+
+<h3>Partial Tagheplers kullanımı</h3>
+<ul>
+    <partial name="_PartialMenu" />
+</ul>
+
+<p>partial model kullanımı</p>
+
+<ul>
+    <partial  name="_PartialModelKullanimi" />
+</ul>
+
+<p>HTML ile asenkron partial kullanılamya başlanmış ve tavsiye edilen şeklide bu olmuştur</p>
+<ul>
+    @await Html.PartialAsync("_PartialMenu")
+</ul>
+
+
+<p>Partial modelin asenkron çağırılması</p>
+
+@await Html.PartialAsync("_PartialModelKullanimi", Model);

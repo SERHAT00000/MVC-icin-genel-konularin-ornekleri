@@ -1,0 +1,6 @@
+﻿namespace WEB_Kursu.Extensions
+{
+    public class SessionExtensions
+    {
+    }
+}

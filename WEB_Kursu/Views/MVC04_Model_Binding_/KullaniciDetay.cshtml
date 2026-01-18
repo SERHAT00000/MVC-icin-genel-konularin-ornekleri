@@ -1,0 +1,45 @@
+﻿@model Kullanici
+
+@{
+    ViewBag.Title = "Kullanıcı detay";
+}
+<h1>Model içerisindem gelen kullanıcı verileri gösterme</h1>
+<div>
+    <h2>Kullanıcı Detay</h2>
+
+    <h4>Kullanıcı verileri</h4>
+
+    <h5>Ad</h5>
+    <h5>@Model.Ad</h5>
+    <h5>Soyadı</h5>
+    <h5>@Model.Soyad</h5>
+    <h5>Email'i</h5>
+    <h5>@Model.Email</h5>
+    <h5>Kullancı Adı</h5>
+    <h5>@Model.KullaniciAdi</h5>
+    <h5>Şifre</h5>
+    <h5>@Model.Sifre</h5>
+</div>
+<h1>Model içerisinden gelen verileri ekranda düzenleme</h1>
+<div>
+    <form action="MVC04_Model_Binding_Controller\KullaniciDetay" method="post">
+        <div>
+            <h2>Kullanıcı Detay</h2>
+
+            <h4>Kullanıcı verileri</h4>
+            @* TextBoxFor ifadsi sadece string ifadelerde kullanılır EditorFor ise kendisi gelen veriye göre ayarlarsitring se sitring int se int *@
+            <h5>Ad</h5>
+            <h5>@Html.TextBoxFor(Model=> Model.Ad)</h5>
+            <h5>Soyadı</h5>
+            <h5>@Html.TextBoxFor(Model =>Model.Soyad)</h5>
+            <h5>Email'i</h5>
+            <h5>@Html.TextBoxFor(Model=> Model.Email)</h5>
+            <h5>Kullancı Adı</h5>
+            <h5>@Html.TextBoxFor(Model=>Model.KullaniciAdi)/h5>
+            <h5>Şifre</h5>
+            <h5>@Html.EditorFor(Model=>Model.Sifre)</h5>
+                <input type="submit" name="" value="kaydet" class="btn btn-primary"/>
+        </div>
+    </form>
+
+</div>

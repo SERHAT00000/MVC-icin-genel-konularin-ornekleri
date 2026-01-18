@@ -1,0 +1,47 @@
+﻿@model WEB_Kursu.Models.Adres
+@{
+    ViewBag.title = "Adres Detay";
+}
+<h4>Adres Detay</h4>
+
+@{
+    if(Model!=null)
+    {
+        <table class="table">
+            <tr>
+                <td>Şehir</td>
+                <td>@Model.Sehir</td>
+            </tr>
+            <tr>
+                <td>ilçe</td>
+                <td>@Model.Ilce</td>
+            </tr>
+            <tr>
+                <td>Açık Adres</td>
+                <td>@Model.AcikAdres</td>
+            </tr>
+        
+        
+        </table>
+    }
+    else
+    {
+        <p>verilere ualşılamıyor</p>
+    }
+    @using (Html.BeginForm())
+    {
+        <div class="form-group">
+        @Html.LabelFor(m=>m.Sehir)
+        @Html.TextBoxFor(m=>m.Sehir, new {@class="form-control"})
+        </div>
+        <div class="form-group">
+        @Html.LabelFor(m=>m.Ilce)
+            @Html.TextBoxFor(m => m.Ilce, new { @class = "form-control" })
+        </div>
+        <div class="form-group">
+        @Html.LabelFor(m=>m.AcikAdres)
+            @Html.TextBoxFor(m => m.AcikAdres, new { @class = "form-control" })
+        </div>
+        <button type="submit" class="btn btn-primary">Kaydet</button>
+    }
+}

@@ -1,0 +1,48 @@
+﻿@model UyeSayfasiViewModel
+@{
+    ViewData["Title"] = "Kullanici Adres Detay";
+}
+
+<h1>Kullanici Adres Detay</h1>
+
+<div>
+    <h2>Kullanıcı Detay</h2>
+
+    <h4>Kullanıcı verileri</h4>
+
+    <h5>Ad</h5>
+    <h5>@Model.Kullanici.Ad</h5>
+    <h5>Soyadı</h5>
+    <h5>@Model.Kullanici.Soyad</h5>
+    <h5>Email'i</h5>
+    <h5>@Model.Kullanici.Email</h5>
+    <h5>Kullancı Adı</h5>
+    <h5>@Model.Kullanici.KullaniciAdi</h5>
+    <h5>Şifre</h5>
+    <h5>@Model.Kullanici.Sifre</h5>
+</div>
+@{
+    if (Model != null)
+    {
+        <table class="table">
+            <tr>
+                <td>Şehir</td>
+                <td>@Model.Adres.Sehir</td>
+            </tr>
+            <tr>
+                <td>ilçe</td>
+                <td>@Model.Adres.Ilce</td>
+            </tr>
+            <tr>
+                <td>Açık Adres</td>
+                <td>@Model.Adres.AcikAdres</td>
+            </tr>
+
+
+        </table>
+    }
+    else
+    {
+        <p>verilere ualşılamıyor</p>
+    }
+}

@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.title = "MVC 12 session kullanımı ";
+}
+
+<h2>MVC 12 session kullanımı</h2>
+
+<p>session lar sunucu taraflı otutrum işlemleri veya veri taşıma
+    yöntemleri olarak sayfalar arasında güvenli bir şekilde kullanabileceğimiz nesnelerdir</p>
+
+    <p>session oluştur</p>
+
+<form action="/MVC12Session/Sessionolustur" method="post">
+    <input type="text" name="kullaniciAdi" placeholder="Kullanıcı adı" required/>
+    <input type="text" name="Sifre" placeholder="Şifre"required />
+    <input type="submit" value="Kaydet" />
+</form>
+
+<a href="/MVC12Session/Sessionoku" >Session Oku</a>
+
+<h5>
+    @Html.Raw(TempData["mesaj"])
+</h5>

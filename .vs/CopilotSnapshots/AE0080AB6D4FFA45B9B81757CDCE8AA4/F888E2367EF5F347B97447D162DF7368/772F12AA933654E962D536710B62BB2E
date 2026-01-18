@@ -1,0 +1,18 @@
+﻿using Newtonsoft.Json;
+using System.Text.Json.Serialization;
+
+namespace WEB_Kursu.Extensions
+{
+    public static class SessionExtensions
+    {
+        public static void SetJson(this ISession session, string key, object value)
+        {
+            session.SetString(key, JsonSerializer.Serialize(value));
+        }
+        public static void GetJson(this ISession session, string key, string value)
+        {
+            return session.GetString(key, value);
+        }
+        
+    }
+}

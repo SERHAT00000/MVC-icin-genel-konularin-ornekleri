@@ -1,0 +1,149 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WEB_Kursu
+build_property.RootNamespace = WEB_Kursu
+build_property.ProjectDir = C:\Users\serha\source\repos\WEB_Kursu\WEB_Kursu\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\serha\source\repos\WEB_Kursu\WEB_Kursu
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/serha/source/repos/WEB_Kursu/WEB_Kursu/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serha/source/repos/WEB_Kursu/WEB_Kursu/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serha/source/repos/WEB_Kursu/WEB_Kursu/Views/MVC04_Model_Binding_/AdresDetay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMDRfTW9kZWxfQmluZGluZ19cQWRyZXNEZXRheS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serha/source/repos/WEB_Kursu/WEB_Kursu/Views/MVC04_Model_Binding_/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMDRfTW9kZWxfQmluZGluZ19cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serha/source/repos/WEB_Kursu/WEB_Kursu/Views/MVC04_Model_Binding_/KullaniciAdresDetay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMDRfTW9kZWxfQmluZGluZ19cS3VsbGFuaWNpQWRyZXNEZXRheS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serha/source/repos/WEB_Kursu/WEB_Kursu/Views/MVC04_Model_Binding_/KullaniciDetay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMDRfTW9kZWxfQmluZGluZ19cS3VsbGFuaWNpRGV0YXkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serha/source/repos/WEB_Kursu/WEB_Kursu/Views/MVC05_Model_Validation/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMDVfTW9kZWxfVmFsaWRhdGlvblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serha/source/repos/WEB_Kursu/WEB_Kursu/Views/MVC05_Model_Validation/YeniUye.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMDVfTW9kZWxfVmFsaWRhdGlvblxZZW5pVXllLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serha/source/repos/WEB_Kursu/WEB_Kursu/Views/MVC06CRUD/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMDZDUlVEXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serha/source/repos/WEB_Kursu/WEB_Kursu/Views/MVC06CRUD/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMDZDUlVEXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serha/source/repos/WEB_Kursu/WEB_Kursu/Views/MVC06CRUD/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMDZDUlVEXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serha/source/repos/WEB_Kursu/WEB_Kursu/Views/MVC06CRUD/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMDZDUlVEXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serha/source/repos/WEB_Kursu/WEB_Kursu/Views/MVC06CRUD/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMDZDUlVEXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serha/source/repos/WEB_Kursu/WEB_Kursu/Views/MVC07Session/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMDdTZXNzaW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serha/source/repos/WEB_Kursu/WEB_Kursu/Views/MVC08Partial/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMDhQYXJ0aWFsXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serha/source/repos/WEB_Kursu/WEB_Kursu/Views/MVC09ViewResults/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMDlWaWV3UmVzdWx0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serha/source/repos/WEB_Kursu/WEB_Kursu/Views/MVC10FileUpload/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMTBGaWxlVXBsb2FkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serha/source/repos/WEB_Kursu/WEB_Kursu/Views/MVC12Session/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMTJTZXNzaW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serha/source/repos/WEB_Kursu/WEB_Kursu/Views/MVC12Session/SessionOku.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMTJTZXNzaW9uXFNlc3Npb25Pa3UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serha/source/repos/WEB_Kursu/WEB_Kursu/Views/MVC16HttpContext/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMTZIdHRwQ29udGV4dFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serha/source/repos/WEB_Kursu/WEB_Kursu/Views/MVC18ViewComponents/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDMThWaWV3Q29tcG9uZW50c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serha/source/repos/WEB_Kursu/WEB_Kursu/Views/Shared/Components/Uyeler/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcVXllbGVyXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serha/source/repos/WEB_Kursu/WEB_Kursu/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serha/source/repos/WEB_Kursu/WEB_Kursu/Views/Shared/_KategorilerPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9LYXRlZ29yaWxlclBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serha/source/repos/WEB_Kursu/WEB_Kursu/Views/Shared/_PartialMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXJ0aWFsTWVudS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serha/source/repos/WEB_Kursu/WEB_Kursu/Views/Shared/_PartialModelKullanimi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXJ0aWFsTW9kZWxLdWxsYW5pbWkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serha/source/repos/WEB_Kursu/WEB_Kursu/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serha/source/repos/WEB_Kursu/WEB_Kursu/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serha/source/repos/WEB_Kursu/WEB_Kursu/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serha/source/repos/WEB_Kursu/WEB_Kursu/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-4rom2bqswg

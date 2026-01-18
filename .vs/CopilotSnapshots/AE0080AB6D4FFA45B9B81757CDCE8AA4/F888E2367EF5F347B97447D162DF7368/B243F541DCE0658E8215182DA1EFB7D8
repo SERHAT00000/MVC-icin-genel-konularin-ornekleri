@@ -1,0 +1,20 @@
+﻿using Newtonsoft.Json;
+using System.Text.Json.Serialization;
+
+namespace WEB_Kursu.Extensions
+{
+    public static class SessionExtensions
+    {
+        public static void SetJson(this ISession session, string key, object value)
+        {
+            session.SetString(key, JsonSerializer.Serialize(value));
+        }
+        public static void GetJson(this ISession session, string key, string value)
+        {
+            var json = session.GetString(key);
+            if (string.IsNullOrEmpty(json)) return default;
+            return JsonSerializer.Deserialize<T>(json);
+        }
+        
+    }
+}

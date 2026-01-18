@@ -1,0 +1,84 @@
+﻿@model WEB_Kursu.Models.Uye
+
+@{
+    ViewData["Title"] = "Detaylar";
+}
+
+<h1>Detaylar</h1>
+
+<div>
+    <h4>Üye Bilgileri</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Ad)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Ad)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Soyad)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Soyad)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Telefon)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Telefon)
+        </dd>
+        <dt class="col-sm-2">
+            @* Modelinizdeki [Display] özniteliği sayesinde 
+               burası "Tc Kimlik Numarası" olarak görünecektir.
+            *@
+            @Html.DisplayNameFor(model => model.TcNo)
+            </t>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TcNo)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DogumTarihi)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DogumTarihi)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.KullaniciAdi)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.KullaniciAdi)
+        </dd>
+
+        @* GÜVENLİK UYARISI: 
+        Aşağıdaki 'Sifre' ve 'SifreTekrar' alanları, modelinizde oldukları için
+        scaffolding (otomatik kod oluşturma) aracı tarafından eklenecektir.
+        Ancak, bir kullanıcının şifresini (hash'lenmiş olsa bile) bir "Detay" 
+        sayfasında ASLA göstermemelisiniz. 
+        Bu <dt> ve <dd> satırlarını silmeniz şiddetle tavsiye edilir.
+        *@
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Sifre)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Sifre)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.SifreTekrar)
+            </t>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.SifreTekrar)
+        </dd>
+    </dl>
+</div>
+<div>
+    @* Bu link, @Model.Id kullanarak ilgili kaydın 'Edit' sayfasına gider *@
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Düzenle</a> |
+    <a asp-action="Index">Listeye Geri Dön</a>
+</div>

@@ -1,0 +1,61 @@
+﻿@{
+    ViewBag.title = "File Upload Dosya Yüklee işlemi";
+}
+
+<p>File Upload Dosya Yüklee işlemi</p>
+
+<b>Rasgele Dosya isimi üretme</b>
+@System.IO.Path.GetRandomFileName()
+
+<form asp-action="Index" asp-controller="MVC10FileUploadController" method="post" enctype="multipart/form-data">
+<input  type="file" name="Dosya" id="fileup"/>
+<input type="submit" value="Yükle" class="btn btn-info" />
+</form>
+
+<hr />
+<img src="~/Images/@TempData["Message"]" alt="" height="100" />
+@TempData["message"]
+
+
+@{
+    var dosyalar = new DirectoryInfo(Directory.GetCurrentDirectory() + "/wwwroot/Images/");
+    var infoList = dosyalar.GetFiles();
+}
+
+<table>
+    <tr>
+        <th>resim</th>
+        <th>isim</th>
+        <th>oluşturma zamanı</th>
+        <th>uzunluk</th>
+        <th>filler</th>
+    </tr>
+   
+        @foreach(var item in infoList)
+        {
+            <tr>
+            <td>
+                <img src="~/Images/@item.Name" alt="@item.Name" title="@item.Name" height="118" />
+            </td>
+            <td>
+                @item.Name
+            </td>
+            <td>
+                @item.CreationTime
+            </td>
+            <td>
+                @item.Length
+            </td>
+            <td>
+                <form asp-action="ResimSil" metod="post">
+                    <input type="hidden" name="Resimyolu" value="@item.FullName" />
+                    <button type="submit" class="btn btn-danger">sil</button>
+                    <span class="btn btn-close btn btn-close-white" ></span>
+                </form>
+            </td>
+            </tr>
+            
+            
+        }
+    
+</table>

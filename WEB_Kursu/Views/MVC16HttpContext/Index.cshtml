@@ -1,0 +1,53 @@
+﻿@{
+    ViewBag.title = "MVC 16 Http Context";
+}
+
+<p>MVC 16 Http Context</p>
+
+<p>
+    Mvc de controller veya view lerde yapılan isteklerdeki 
+    controller, action, id, qyery string vb bilgilere erişmek için
+    HttpContext kullanılır. HttpContext, bir web isteği sırasında
+    oluşan tüm HTTP bilgilerini kapsar ve bu bilgilere erişim sağlar.
+</p>
+
+<h3>
+    Controller RouteData.Values
+</h3>
+@Html.Raw(TempData["mesaj"])
+
+
+<form>
+    @Html.Editor("kelime")
+</form>
+
+<h4>
+    post
+</h4>
+<form metod="post">
+    @Html.Editor("kelime")
+</form>
+
+<h5>
+    Controller adı:
+</h5>
+@ViewContext.RouteData.Values["controller"]
+<h5>
+    Action adı:
+</h5>
+@ViewContext.RouteData.Values["action"]
+<h5>
+    Id:
+</h5>
+@ViewContext.RouteData.Values["Id"]
+
+<h5>Request metod</h5>
+@Context.Request.Method
+<h5>Request Scheme</h5>
+@Context.Request.Scheme
+<h5>Request QueryString</h5>
+@Context.Request.QueryString
+<h5>Request Query "Kelime"</h5>
+@Context.Request.Query["Kelime"]
+<h5>Session değeri</h5>
+@Context.Session.GetString("sessionDegeri")

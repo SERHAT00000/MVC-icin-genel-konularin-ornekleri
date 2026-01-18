@@ -1,0 +1,157 @@
+﻿@{
+    ViewData["Title"] = "Data Transfer";
+    
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+
+
+
+
+<h3>Data Transfer</h3>
+
+
+<h6>Kategori Adı</h6>
+@ViewBag.UrunKategorisi
+
+<table class="table">
+    <tr>
+        <td>Id</td>
+        <td>Adı</td>
+        <td>Stok Sayısı</td>
+        <td>Kategori</td>
+    </tr>
+    @foreach (var i in ViewBag.Urunler)
+    // dinamik bir yapıda olmadığı için hatalar run time ortaya cıkar ama hata sebebi anlaşılmaz
+    //<td> @i.urunId</td>  buradaki urunId veya ID oalrak mı tutulduğu run  time de belli olur
+    {
+    <tr>
+            <td>@i.Id</td>
+            <td>@i.Adi</td>
+            <td>@i.StokAdedi</td>
+            <td>@i.UrunKategori</td>
+        
+    </tr>
+    <caption>
+            @TempData["Urun bilgi"]
+    </caption>
+
+    }
+</table>
+
+<table class="table">
+    <tr>
+        <td>Id</td>
+        <td>Adı</td>
+        <td>Stok Sayısı</td>
+        <td>Kategori</td>
+    </tr>
+    @foreach (var i in ViewData["Urunler"] as List<WEB_Kursu.Models.Urun>)
+        //dinamik yapıda olduğu için hatalar derlemeden önce görülebilir
+    {
+        <tr>
+            <td>@i.Id</td>
+            <td>@i.Adi</td>
+            <td>@i.StokAdedi</td>
+            <td>@i.UrunKategori</td>
+
+        </tr>
+        <caption>
+            @TempData["Urun bilgi"]
+        </caption>
+
+    }
+</table>
+
+        <h2>MVC view den controller a veri gönderme</h2>
+
+        <h3> 1- GET metoodu ile veri yakalama</h3>
+
+    <form action="/Home/Index" method="get" >
+    <input type="text" name="ürünAra"/>    
+    <input type="submit" value="ara"/>
+    </form>
+
+    <div class="alert alert-info">
+    @ViewBag.AramaGirdisi
+    </div>
+
+
+    <h3>1- Post Metoduyla veri gönderme</h3>
+
+@{
+    var kategoriler = new List<SelectListItem>
+    {
+        new SelectListItem { Text="Bilgisayar", Value="1"} ,   
+        new SelectListItem { Text="makara", Value="2"} ,
+        new SelectListItem { Text="olta kanmışı", Value="3"} ,
+    };
+}
+<form action="/Home/Index" method="post">
+    <table class="table">
+        <tr>
+            <td>Ürün adı</td>
+            <td>
+                @Html.TextBox("txtUrunAdi")
+            </td>
+        </tr>
+        <tr>
+            <td>Kategori</td>
+            <td>@Html.DropDownList("ddlkategori",kategoriler)</td>
+        </tr>
+        <tr>
+            <td>Sözleşme</td>
+            <td>
+                <label>
+                    @Html.RadioButton("rbOnay", "onay") Okudum, Onaylıyorum
+                </label>
+                <label>
+                    @Html.RadioButton("rbOnay","red") Okudum , Onaylamıyorum
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                durum
+            </td>
+            <td>@Html.CheckBox("cbOnay")</td>
+        </tr>
+    </table>
+    <input type="submit" value="Gönder" />
+</form>
+<div class="alert alert-info">
+    <h3>@ViewBag.Baslik1</h3>
+        @ViewBag.Mesaj1
+    <br />
+    @ViewBag.Mesaj2
+    <br />
+    @ViewBag.Mesaj3
+    <br />
+    @ViewBag.Mesaj4
+</div>
+
+<div class="alert alert-primary">
+    <h3>@ViewBag.Baslik2</h3>
+    @ViewBag.Mesaj5
+    <br />
+    @ViewBag.Mesaj6
+    <br />
+    @ViewBag.Mesaj7
+    <br />
+    @ViewBag.Mesaj7
+</div>
+
+<div class="alert alert-dark">
+    <h3>@ViewBag.Baslik3</h3>
+    @ViewBag.Mesaj8
+    <br />
+    @ViewBag.Mesaj9
+    <br />
+    @ViewBag.Mesaj10
+    <br />
+    @ViewBag.Mesaj10
+</div>
